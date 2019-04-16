@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="@mipmap/bg_state_top">
+
+            <com.zzw.thinkpad.thear.weight.layout.NormalToolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/btn_pa"
+                ></com.zzw.thinkpad.thear.weight.layout.NormalToolbar>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tipes"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="58dp"
+            android:background="@mipmap/bg_state_ll2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="28dp"
+                android:text="欢迎XXX小朋友"
+                android:textColor="#ff6c7f"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="8dp"
+                android:text="快查看下校园周边都有哪些新鲜事吧！" />
+            <ImageView
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:src="@mipmap/state_line"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/refresh">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        android:scrollbars="none"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tipes"
+            android:orientation="vertical"
+            >
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

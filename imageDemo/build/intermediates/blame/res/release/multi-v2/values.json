@@ -1,0 +1,120 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\project\\guochuang\\TheAr\\imageDemo\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\project\\guochuang\\TheAr\\imageDemo\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3,5,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "103,56,156,209",
+                        "endColumns": "52,46,52,57",
+                        "endOffsets": "151,98,204,262"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "95,148,195,248",
+                        "endColumns": "52,46,52,57",
+                        "endOffsets": "143,190,243,301"
+                    }
+                },
+                {
+                    "source": "C:\\project\\guochuang\\TheAr\\imageDemo\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "7,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "306,597",
+                        "endLines": "13,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "592,752"
+                    }
+                },
+                {
+                    "source": "C:\\project\\guochuang\\TheAr\\imageDemo\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "39",
+                        "endOffsets": "91"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "39",
+                        "endOffsets": "90"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\project\\guochuang\\TheAr\\imageDemo\\build\\intermediates\\res\\merged\\release\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\project\\guochuang\\TheAr\\imageDemo\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3,5,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "103,56,156,209",
+                        "endColumns": "52,46,52,57",
+                        "endOffsets": "151,98,204,262"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "95,148,195,248",
+                        "endColumns": "52,46,52,57",
+                        "endOffsets": "143,190,243,301"
+                    }
+                },
+                {
+                    "source": "C:\\project\\guochuang\\TheAr\\imageDemo\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "7,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "306,597",
+                        "endLines": "13,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "592,752"
+                    }
+                },
+                {
+                    "source": "C:\\project\\guochuang\\TheAr\\imageDemo\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "39",
+                        "endOffsets": "91"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "39",
+                        "endOffsets": "90"
+                    }
+                }
+            ]
+        }
+    ]
+}

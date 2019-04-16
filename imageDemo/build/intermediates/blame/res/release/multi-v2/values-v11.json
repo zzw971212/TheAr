@@ -1,0 +1,52 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\project\\guochuang\\TheAr\\imageDemo\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\project\\guochuang\\TheAr\\imageDemo\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "8,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "243,385",
+                        "endLines": "10,14",
+                        "endColumns": "12,12",
+                        "endOffsets": "377,538"
+                    },
+                    "to": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,192",
+                        "endLines": "4,7",
+                        "endColumns": "12,12",
+                        "endOffsets": "187,343"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\project\\guochuang\\TheAr\\imageDemo\\build\\intermediates\\res\\merged\\release\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\project\\guochuang\\TheAr\\imageDemo\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "8,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "243,385",
+                        "endLines": "10,14",
+                        "endColumns": "12,12",
+                        "endOffsets": "377,538"
+                    },
+                    "to": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,192",
+                        "endLines": "4,7",
+                        "endColumns": "12,12",
+                        "endOffsets": "187,343"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_register3"
+    android:orientation="vertical"
+    tools:context="com.zzw.thinkpad.thear.ui.activity.register.View.Register2Activity">
+
+    <com.zzw.thinkpad.thear.weight.layout.NormalToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.zzw.thinkpad.thear.weight.layout.NormalToolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="170dp"
+        android:background="@mipmap/bg_login_ll"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/school"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="@dimen/dp_32"
+            android:background="@mipmap/bg_login_et"
+            android:hint="请输入学校"
+            android:paddingLeft="16dp"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/banji"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="16dp"
+            android:background="@mipmap/bg_login_et"
+            android:hint="请输入班级"
+            android:paddingLeft="16dp"
+            android:password="true"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/id_num"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="请输入姓名或学工号"
+                android:background="@null"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:background="@mipmap/bg_register_et"
+            ></View>
+        <TextView
+            android:id="@+id/skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点此跳过"
+            android:layout_marginLeft="200dp"
+            android:textColor="#ff6f82"
+            android:layout_marginTop="8dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginTop="430dp"
+        android:background="@mipmap/bg_login_btn"
+        android:text="完成注册"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+
+        />
+</RelativeLayout>

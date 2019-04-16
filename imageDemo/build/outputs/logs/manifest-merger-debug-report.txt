@@ -1,0 +1,67 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml
+		INJECTED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml
+		INJECTED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml
+		INJECTED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:7:5-47
+INJECTED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:7:5-47
+INJECTED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:7:5-47
+INJECTED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:7:5-47
+INJECTED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:7:5-47
+	android:targetSdkVersion
+		ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:7:15-44
+		INJECTED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml
+		INJECTED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml
+		ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:7:5-47
+		INJECTED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:10:22-78
+application
+ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:12:5-25:19
+	android:label
+		ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:15:9-41
+	android:allowBackup
+		ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:16:9-40
+	android:name
+		ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:14:9-65
+activity#com.loveplusplus.demo.image.MainActivity
+ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:17:9-21:20
+	android:label
+		ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:19:13-45
+	android:name
+		ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:18:13-41
+activity#com.loveplusplus.demo.image.ImagePagerActivity
+ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:22:9-24:58
+	android:theme
+		ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:24:13-55
+	android:name
+		ADDED from C:\project\guochuang\TheAr\imageDemo\src\main\AndroidManifest.xml:23:13-47

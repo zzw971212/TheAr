@@ -1,0 +1,27 @@
+com.loveplusplus.demo.image
+color black
+drawable empty_photo
+drawable ic_launcher
+id action_settings
+id album_image
+id avator
+id content
+id gridView
+id image
+id indicator
+id loading
+id name
+id pager
+layout activity_main
+layout gridview_item
+layout image_detail_fragment
+layout image_detail_pager
+layout list_item
+menu main
+string action_settings
+string app_name
+string hello_world
+string viewpager_indicator
+style AppBaseTheme
+style AppTheme
+style AppTheme_NoTitleBar

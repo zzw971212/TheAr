@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_manage"
+    android:orientation="vertical"
+    tools:context=".ui.activity.mygarden.View.ManageActivity">
+
+    <com.zzw.thinkpad.thear.weight.layout.NormalToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"></com.zzw.thinkpad.thear.weight.layout.NormalToolbar>
+
+    <ImageView
+        android:id="@+id/farmer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="16dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/farmer" />
+
+    <TextView
+        android:id="@+id/grow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/farmer"
+        android:layout_alignLeft="@+id/farmer"
+        android:text="成长值：" />
+
+    <TextView
+        android:id="@+id/num_grow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/farmer"
+        android:layout_toRightOf="@+id/grow"
+        android:text="100" />
+
+    <TextView
+        android:id="@+id/energy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grow"
+        android:layout_alignLeft="@+id/farmer"
+        android:layout_alignRight="@+id/grow"
+        android:text="能量：" />
+
+    <TextView
+        android:id="@+id/num_energy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grow"
+        android:layout_alignLeft="@+id/num_grow"
+        android:layout_toRightOf="@+id/grow"
+        android:text="80" />
+        <ImageView
+            android:id="@+id/sprout"
+            android:layout_width="@dimen/dp_80"
+            android:layout_height="@dimen/dp_80"
+            android:layout_marginTop="350dp"
+            android:src="@mipmap/sprout"
+            android:layout_centerHorizontal="true"
+            />
+
+        <ImageView
+            android:id="@+id/flower"
+            android:visibility="invisible"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="324dp"
+            android:src="@mipmap/flower"
+            android:layout_centerHorizontal="true"
+            />
+    <com.zzw.thinkpad.thear.ui.activity.mygarden.Bean.WaterView
+        android:id="@+id/wv_water"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:background="@null"/>
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif_image"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/energy"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="70dp"
+        android:src="@mipmap/jiaoshui" />
+
+</RelativeLayout>

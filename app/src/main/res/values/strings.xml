@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TheAr</string>
+    <string name="title_activity_register1">Register1Activity</string>
+
+    <string name="spd" />
+    <string name="original_y" />
+    <string name="isUp" />
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_mygarden"
+    android:orientation="vertical"
+    tools:context="com.zzw.thinkpad.thear.ui.activity.mygarden.View.MygardenActivity">
+
+    <com.zzw.thinkpad.thear.weight.layout.NormalToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"></com.zzw.thinkpad.thear.weight.layout.NormalToolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/dp_16">
+
+        <ImageView
+            android:layout_width="@dimen/dp_32"
+            android:layout_height="@dimen/dp_32"
+            android:layout_marginLeft="@dimen/dp_32"
+            android:src="@mipmap/garden_img" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="能量："
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="72dp"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="80"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="52dp"
+            android:textSize="20sp"
+            />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_annu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="公告：给你的树浇水哦,记得按时收获能量"
+        android:layout_marginLeft="@dimen/dp_32"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动态：你的能量可以收获了"
+        android:layout_marginLeft="@dimen/dp_32"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/planting"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="管理花园"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="290dp"
+        android:background="#43aa5f"
+
+        />
+</LinearLayout>
